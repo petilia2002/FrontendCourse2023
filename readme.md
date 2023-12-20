@@ -10,4 +10,4 @@
 Для выхода из режима редактирования необходимо еще раз нажать "Редачить".  
 Для добавления каторточки нужно просто заполнить поля и нажать кнопку "Добавить".
 
-![image](https://github.com/petilia2002/FrontendCourse2023/assets/112577602/22202b05-4da2-4fb5-8497-6631ac077aab)
+![image](https://github.com/petilia2002/FrontendCourse2023/assets/112577602/18dc96cf-dd8f-4ba6-99f5-10a46a3d0306)
