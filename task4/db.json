@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "id": 3,
+      "title": "пиво 'Amstel'",
+      "description": "Освежает! Мягкое, алкогольное",
+      "img": "file:///C:/Users/Acer/Desktop/task5/assets/beer.png",
+      "code": 2,
+      "provider": "ИП Фруктов А.Н."
+    },
+    {
+      "id": 4,
+      "title": "Иголка в стоге сена",
+      "description": "Стог сена продается отдельно",
+      "img": "./assets/hay.png",
+      "code": "3",
+      "provider": "ООО 'Рога и копыта'"
+    },
+    {
+      "id": 5,
+      "title": "чай 'Принцесса Нури'",
+      "description": "Настоящий чай, с запахом Индии.",
+      "img": "./assets/tea.png",
+      "code": "4",
+      "provider": "ИП Фруктов А.Н."
+    },
+    {
+      "id": 7,
+      "title": "Coffee",
+      "description": "поможет утром",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG",
+      "code": 432,
+      "provider": "Белые люди"
+    },
+    {
+      "id": 8,
+      "title": "playstation 5",
+      "description": "sdfsdf",
+      "img": "https://fortuna29.shop/wp-content/uploads/2022/03/ps5.png",
+      "code": 432,
+      "provider": "dfbdvvs"
+    }
+  ],
+  "creatorInfo": {
+    "name": "Илья Петренков",
+    "group": "6409",
+    "repo": "#"
+  }
+}
