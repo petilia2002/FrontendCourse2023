@@ -1,0 +1,42 @@
+
+.plank{
+    width: 100%;
+    padding: 7px 15px;
+    background: #fff;
+
+    margin-bottom: 15px;
+
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px rgba(0,0,0,.25);
+
+    transition: all .3s ease;
+}
+
+.plank_active{
+    border: 1px solid #6C6C6CCF;
+    background: #fafafa;
+}
+
+.plank:hover{
+    background: #EBF4FF;
+    box-shadow: 0px 2px 5px rgba(0,0,0,.25);
+}
+
+.plank__title{
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.plank__description{
+    width: 100%;
+    color: #6C6C6C;
+    display: flex;
+    align-items: center;
+}
+
+.year{
+    padding-right: 8px;
+    margin-right: 12px;
+
+    border-right: 1px solid #000;
+}

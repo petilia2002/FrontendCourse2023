@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&family=Roboto:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Task 5: cards admin with server</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <div class="logo__inner"><div class="preloader"></div></div>
+      </div>
+      <button class="quick-start-btn" onclick="setUpStartCards()">
+        Засетапить начальные значения
+      </button>
+    </header>
+    <div class="content">
+      <div class="left">
+        <form class="add-card-form">
+          <div class="add-card-form__title">
+            <p>Форма добавления карточки товара</p>
+          </div>
+          <input
+            type="text"
+            id="name"
+            class="add-card-form__card-data"
+            placeholder="Название"
+            required
+          />
+          <input
+            type="text"
+            id="url"
+            class="add-card-form__card-data"
+            placeholder="Ссылка на изображение"
+          />
+          <textarea
+            class="add-card-form__card-data"
+            id="disc"
+            placeholder="Описание"
+            required
+          ></textarea>
+          <input
+            type="text"
+            class="add-card-form__card-data"
+            id="id"
+            placeholder="Код товара"
+            required
+          />
+          <input
+            type="text"
+            class="add-card-form__card-data"
+            id="provider"
+            placeholder="Поставщик"
+            required
+          />
+
+          <input
+            type="button"
+            class="add-card-form__add-btn"
+            value="Добавить"
+            onclick="addCard()"
+          />
+          <input
+            type="button"
+            class="add-card-form__add-btn btn_hidden"
+            value="Изменить"
+            onclick="changeCard()"
+          />
+        </form>
+      </div>
+      <div class="right">
+        <div class="showcase">
+          <div class="showcase__header">
+            <div class="showcase__title">
+              <p>Витрина карточек</p>
+            </div>
+            <button class="delete-btn" onclick="deleteCardScript()">
+              Выбрать
+            </button>
+          </div>
+          <div class="showcase__inner"></div>
+        </div>
+      </div>
+    </div>
+    <div class="loader">
+      <div class="loader__inner"></div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
