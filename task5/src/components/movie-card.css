@@ -1,0 +1,198 @@
+
+.card{
+    width: 100%;
+    padding: 10px 20px;
+
+}
+
+.card__header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-left: 20px;
+
+    margin-bottom: 20px;
+}
+
+.movie-id{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.id{
+    font-size: 14px;
+}
+
+.copy-img{
+    
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.img-skin{
+    position: relative;
+}
+
+.before{
+    position: absolute;
+    top: -100%;
+    left: 100%;
+    font-size: 14px;
+    padding: 5px 10px;
+    background: #ECF1F7;
+    color: #336FEE;
+
+    border-radius: 8px;
+    transition: all 1s ease;
+    opacity: 0;
+}
+
+.before_active{
+    opacity: 100%;
+}
+
+.edit-btn{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 5px;
+    color: #000;
+
+    background: transparent;
+
+    transition: all 0.4s ease;
+}
+
+.edit-btn:hover{
+    border-radius: 8px;
+    background: #428BF933;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+    color: #336FEE;
+}
+.edit-img{
+    margin-right: 10px;
+    transition: all 0.1s linear;
+
+}
+
+
+.edit-btn:hover .edit-img{
+    filter: invert(35%) sepia(77%) saturate(1911%) hue-rotate(210deg) brightness(93%) contrast(101%);
+}
+
+.content__main{
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.poster{
+    width: 200px;
+    height: 300px;
+    margin-right: 15px;
+    border: 1px solid #EBF4FF;
+}
+
+.poster img{
+    width: 100%;
+}
+
+.movie{
+    width: calc(100% - 200px);
+}
+
+.movie__title{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+
+}
+
+.favorite{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    clip-path: polygon(50% 0, 61% 35%, 100% 35%, 68% 57%, 81% 100%, 50% 70%, 19% 100%, 32% 57%, 0 35%, 39% 35%);
+    background: #ced7e1;
+    cursor: pointer;
+
+    transition: all 0.4s ease;
+}
+
+.favorite_active{
+    background: #FFDD2D;
+}
+
+.movie__director{
+    font-size: 16px;
+    color: #6C6C6C;
+    margin-bottom: 18px;
+}
+
+.movie__params{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-params{
+    width: 60%;
+    margin-right: 150px;
+}
+
+.params__title{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.params__field{
+    
+    width: 100%;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.params__field .name{
+    font-size: 16px;
+    color: #6C6C6C;
+    margin-right: 10px;
+}
+
+.params__field .value{
+    font-size: 16px;
+}
+
+.actors__title{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.actors__title img{
+    margin-left: 10px;
+}
+
+.actor{
+    line-height: 2.5rem;
+    font-size: 16px;
+}
+
+.desc__title{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.desc__text{
+    font-size: 16px;
+    padding-right: 35px;
+}

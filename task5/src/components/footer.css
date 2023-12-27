@@ -1,0 +1,41 @@
+
+.footer{
+    width: 100%;
+    padding-top: 15px;
+
+    border-top: 1px solid rgba(217, 217, 217, .8);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add-btn{
+    
+    padding: 10px 8px;
+    background:#FFDD2D;
+    border: none;
+    border-radius: 8px;
+    color: #000;
+
+    margin-left: 20px;
+
+    box-shadow: 0px 2px 2px 0px #00000040;
+    cursor: pointer;
+
+    transition: all .3s linear;
+}
+
+.add-btn span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1rem;
+    margin-right: 5px;
+}
+
+.add-btn:hover{
+    background: #debf28;
+}
+
+.add-btn:active{
+    box-shadow: none;
+}

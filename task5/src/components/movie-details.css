@@ -1,0 +1,5 @@
+
+.movie-details{
+    width: 65%;
+    height: calc(100vh - 60px);
+}
